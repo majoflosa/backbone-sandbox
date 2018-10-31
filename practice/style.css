@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    max-width: 900px;
+    margin: 75px auto;
+}
+
+.field-group {
+    width: 600px;
+    margin: 0 auto 30px;
+}
+
+.field-group input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.field-group button {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #555555;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+
+.list-item {
+    border: 3px solid #eeeeee;
+    padding: 20px;
+    margin: 0 auto 10px;
+}
+
+.item-info {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px dashed #eeeeee;
+}
+
+.item-info:last-child {
+    border: none;
+}

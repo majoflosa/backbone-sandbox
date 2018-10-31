@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Backbone Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="field-group">
+            <input id="user-field" type="text">
+            <button id="add-user">Enter</button>
+        </div>
+
+        <div id="users-list" class="list-group">
+            <script id="user-template" type="text/template">
+                <!-- <div class="list-item"> -->
+                    <p class="item-info">Name: <%= name %></p>
+                    <p class="item-info">Membership: <%= isMember ? 'Active' : 'Inactive' %></p>
+                    <button class="make-member">Make Member</button>
+                <!-- </div> -->
+            </script>
+        </div>
+    </div>
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/underscore-min.js"></script>
+    <script src="js/lib/backbone-min.js"></script>
+    <script src="js/models/UserModel.js"></script>
+    <script src="js/collections/UserCollection.js"></script>
+    <script src="js/views/UserView.js"></script>
+    <script src="js/views/AppView.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
